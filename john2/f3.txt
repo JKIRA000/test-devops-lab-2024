@@ -1,0 +1,343 @@
+    1  vi any.sh
+    2  chmod +x any.sh
+    3  ./any.sh
+    4  vi any.sh
+    5  ./any.sh
+    6  vi element.sh
+    7  gedit element.sh
+    8  chmod +x element.sh
+    9  ./elements.sh
+   10  ./element.sh
+   11  chmod +x element.sh
+   12  ./element.sh
+   13  chmod +x element.sh
+   14  ./element.sh
+   15  chmod +x element.sh
+   16  ./element.sh
+   17  chmod +x element.sh
+   18  ./element.sh
+   19  chmod +x element.sh
+   20  ./element.sh
+   21  [200~sudo apt-get update
+   22  sudo apt-get update
+   23  sudo apt-get -y install weka
+   24  gedit p01.sh
+   25  chmod -x p01.sh
+   26  ./p01.sh
+   27  chmod -x p01.sh
+   28  ./p01.sh
+   29  chmod +x p01.sh
+   30  ./p01.sh
+   31  chmod +x p01.sh
+   32  ./p01.sh
+   33  chmod +x p01.sh
+   34  ./p01.sh
+   35  chmod +x p01.sh
+   36  chmod +x p02.sh
+   37  ./p02.sh
+   38  chmod +x p02.sh
+   39  ./p02.sh
+   40  chmod +x p02.sh
+   41  ./p02.sh
+   42  chmod +x p02.sh
+   43  ./p02.sh
+   44  chmod +x p02.sh
+   45  ./p02.sh
+   46  chmod +x p03.sh
+   47  ./p03.sh
+   48  chmod +x p03.sh
+   49  ./p03.sh
+   50  chmod +x p03.sh
+   51  ./p03.sh
+   52  chmod +x p03.sh
+   53  ./p03.sh
+   54  chmod +x p03.sh
+   55  ./p03.sh
+   56  chmod +x p03.sh
+   57  ./p03.sh
+   58  chmod +x p03.sh
+   59  ./p03.sh
+   60  chmod +x p04.sh
+   61  ./p04.sh
+   62  gedit sum.sh
+   63  chmod +x any.sh
+   64  ./any.sh
+   65  chmod +x element.sh
+   66  ./element.sh
+   67  cd
+   68  sudo adduser donbosco
+   69  su - donbosco
+   70  cd
+   71  sudo userdel -r donbosco
+   72  su - donbosco
+   73  ps -u donbosco
+   74  sudo userdel -r donbosco
+   75  ps -u donbosco
+   76  sudo userdel -r donbosco
+   77  su - donbosco
+   78  mkdir newdir
+   79  mkdir dir1 dir2 dir3
+   80  mkdir -p parentdir/childdir
+   81  mkdir -m 755 newdir
+   82  mkdir -m 755 newdir2
+   83  ifconfig
+   84  sudo apt install net-tools
+   85  ifconfig
+   86  ssh
+   87  sudo ufw allow ssh
+   88  hostname -I
+   89  sudo apt update
+   90  whoamI
+   91  whoami
+   92  who
+   93  cd
+   94  sudo ufw allow ssh
+   95  sudo apt update
+   96  hostname -I
+   97  sudo apt update
+   98  sudo apt install openssh-server
+   99  sudoi systemctl start ssh
+  100  sudo systemctl start ssh
+  101  sudo systemctl enable ssh
+  102  ssh dbit@10.0.1.31
+  103  sudo adduser shllok
+  104  su - shllok
+  105  logout
+  106  su - dbit
+  107  logout
+  108  gedit g.py
+  109  hostname -I
+  110  ip addr
+  111  hostname -I
+  112  gedit name.py
+  113  hostname -I
+  114  ip addr
+  115  cd Desktop
+  116  mkdir hello
+  117  cd hello
+  118  pip install python
+  119  sudo apt install python3-pip
+  120  pyhton help
+  121  python help
+  122  python3 help
+  123  cd..
+  124  ..cd
+  125  ...cd
+  126  cd...
+  127  cd..
+  128  cd
+  129  sudo apt-get update
+  130  sudo apt-get dist-update
+  131  sudo apt-get dist-upgrade
+  132  sudo apt-get update
+  133  sudo apt-get gcc g++
+  134  sudo apt-get install gcc g++
+  135  sudo apt-get install build-essential autoconf automake
+  136  sudo apt-get install tcl8.5-dev tk8.5-dev
+  137  cd home
+  138  cd Home
+  139  cd Downloads
+  140  ls
+  141  cd ..
+  142  ..
+  143  cd ..
+  144  sudo apt-get install tcl8.5-dev tk8.5-dev
+  145  sudo apt-get install tcl8.6-dev tk8.6-dev
+  146  sudo apt-get install perl xgraph libxt-dev libx11-dev libxmu-dev
+  147  sudo apt install perl libxt-dev libx11-dev libxmu-dev
+  148  cd ns-allinone-2.35/
+  149  cd ns-allinone-2.35
+  150  ls
+  151  cd ..
+  152  ls
+  153  cd ..
+  154  cd Downloads
+  155  cd dbit
+  156  cd ..
+  157  cd Downloads
+  158  cd 'dbit'
+  159  cd 'dbit '
+  160  sudo ./install
+  161  cd ..
+  162  sudo apt install ns2
+  163  ns /home/dbit/fact.tcl
+  164  cd Downloads
+  165  cd ..
+  166  cd home
+  167  cd dbit
+  168  gedit hello.tcl
+  169  gedit fact.tcl
+  170  nam
+  171  ns
+  172  clear
+  173  ns /home/dbit/hello.tcl
+  174  ns /home/dbit/fact.tcl
+  175  clear
+  176  ns /home/dbit/hello.tcl
+  177  ns /home/dbit/fact.tcl
+  178  clear
+  179  ns /home/dbit/hello.tcl
+  180  ns /home/dbit/fact.tcl
+  181  weka
+  182  set ns[new Simulator]
+  183  set nf [open out.nam w]
+  184  ns namtrace-all $nf
+  185  ns namtrace-all
+  186  set ns [new Simulator]
+  187  set nf [open out.nam w]
+  188  ns namtrace-all $nf
+  189  ls
+  190  ns network.tcl
+  191  nam network.tcl
+  192  sudo apt install nam
+  193  ns network.tcl
+  194  nam network.tcl
+  195  ns network.tcl
+  196  lenoy
+  197  nam
+  198  [200~sudo dpkg --add-architecture i38
+  199  sudo dpkg --add-architecture i386
+  200  sudo apt-get update
+  201  sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
+  202  sudo apt-get install multiarch-support 
+  203  sudo apt-get install nam
+  204  sudo apt-get install xgraph
+  205  cd Downloads/
+  206  sudo dpkg -i nam_1.15-10_i386.deb 
+  207  sudo apt-get install libxrender1:i386 libxtst6:i386 libxi6:i386
+  208  ns network.tcl
+  209  cd ..
+  210  ns network.tcl
+  211  set ns [new Simulator]
+  212  set nf [open out.nam w]
+  213  ns namtrace-all $nf
+  214  gedit network.tcl
+  215  python3 dbpy.py
+  216  sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
+  217  sudo apt-get update
+  218  sudo apt-get install sqlitebrowser
+  219  cd Desktop
+  220  ns distance_vector_routing.tcl
+  221  cd Desktop
+  222  ls
+  223  ns distance_vector_routing.tcl
+  224  chmod +x q7_3417.sh
+  225  ./q7_3417.sh
+  226  cd Desktop
+  227  ls
+  228  chmod -x 51_prac.sh
+  229  ./ 51_prac.sh xyz world 51_test.txt
+  230  ./51_prac.sh xyz world 51_test.txt
+  231  chmod "-x" 51_prac.sh
+  232  ./51_prac.sh xyz world 51_test.txt
+  233  cd Desktop
+  234  ls
+  235  ./51_prac.sh
+  236  ./51_prac.sh xyz world 51_test.txt
+  237  ./51_prac.sh world hello 51_test.txt
+  238  rm thro.nam
+  239  ls
+  240  rm words.sh
+  241  ls
+  242  clear
+  243  rm 51_prac.sh
+  244  rm 51_test.txt
+  245  ls
+  246  cd Desktop
+  247  chmod +x words.sh
+  248  ./words.sh
+  249  chmod +x words.sh
+  250  ./words.sh
+  251  ./words.sh 
+  252  ./words.sh test.txt
+  253  gedit test.sh
+  254  pwd
+  255  ./tesh.sh
+  256  ls
+  257  chmod -x test.sh
+  258  ./tesh.sh
+  259  clear
+  260  chmod -x test.sh
+  261  chmod +x test.sh
+  262  ./tesh.sh
+  263  ./test.sh
+  264  home/dbit/s1
+  265  ./test.sh
+  266  clear
+  267  ./test.sh
+  268  clear
+  269  chmod +x test.sh
+  270  ./test.sh
+  271  ghei
+  272  ghci
+  273  sudo apt install ghc
+  274  home
+  275  ping 10.0.1.1
+  276  sudo wireshark
+  277  clear
+  278  sudo wireshark
+  279  apt install wireshark
+  280  sudo wireshark
+  281  sudo apt-get install wireshark
+  282  sudo wireshark
+  283  ghci last.hs
+  284  sudo apt install ghc
+  285  ghci last.hs
+  286  ghci last5.hs
+  287  ghci example8.hs
+  288  ghic example9.hs
+  289  ghci example9.hs
+  290  ghci example10.hs
+  291  ghci example8.hs
+  292  gedit yash.c
+  293  gcc yash.c -o yash
+  294  /.yash
+  295  /.yash.c
+  296  ./yash
+  297  gedit arraystack.c
+  298  gedit arraystack.c
+  299  gcc arraystack.c -o aaraystack
+  300  ./arraystack
+  301  /.arraystack
+  302  ./arraystack
+  303  gedit array.c
+  304  gcc array.c -o array
+  305  ./array
+  306  gedit large.c
+  307  gcc large,c -o large
+  308  gcc large.c -o large
+  309  ./large
+  310  ./large
+  311  mkdir john22
+  312  mkdir john2
+  313  cd john2
+  314  cd ..
+  315  cd john2
+  316  touch f1.txt
+  317  ls
+  318  ls -a 
+  319  cd ..
+  320  ls
+  321  ls -al
+  322  cd john2
+  323  chmod 777 f1.txt
+  324  gedit f1.txt
+  325  cat f1.txt
+  326  cat > f2.txt
+  327  cat f2.txt
+  328  cat >> f2.txt
+  329  nano f3.txt
+  330  ls -al
+  331  chmod 777 f2.txt f1.txt f3.txt 
+  332  ls -al
+  333  cd ..
+  334  ls -al
+  335  sudo apt install git 
+  336  sudo apt update
+  337  ls -al
+  338  git init
+  339  ls -al
+  340  cd john2
+  341  git status
+  342  history
+  343  history > f3.txt
